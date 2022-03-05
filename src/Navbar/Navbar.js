@@ -1,11 +1,15 @@
 import shopImage from "../assets/images/Subtract.svg";
+import stellaImage from "../assets/images/Alternate logo 2 1.svg";
+import "./Navbar.css";
 
 const NavBar = () => {
   return (
     <div className="nav-container">
-      <div className="wrapper">
+      <div className="wrapper-navigation">
         <nav>
-          <div className="logo"></div>
+          <div>
+            <img src={stellaImage} className="logo"></img>
+          </div>
           <ul className="nav-items">
             <li>
               <a>Home</a>

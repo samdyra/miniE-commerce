@@ -4,7 +4,7 @@ import NavBar from "./Navbar/Navbar";
 
 function App() {
   return (
-    <div>
+    <div className="nav-header-background">
       <NavBar></NavBar>
       <HeaderScreen></HeaderScreen>
     </div>

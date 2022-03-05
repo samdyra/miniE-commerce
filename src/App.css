@@ -3,6 +3,12 @@
   margin: 0;
 }
 
+body {
+  background-image: url("./assets/images/IMG_5818\ 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 @font-face {
   font-family: sunflower;
   src: url(./assets/fonts/MADE\ Sunflower\ PERSONAL\ USE.otf);
@@ -13,5 +19,23 @@
   src: url(./assets/fonts/Montserrat-SemiBold.ttf);
 }
 
-body {
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  /* border: 3px solid black; */
+}
+
+.nav-header-background {
+  /* background-image: url("./assets/images/IMG_5818\ 1.png"); */
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
 }
