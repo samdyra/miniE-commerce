@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+@font-face {
+  font-family: sunflower;
+  src: url(./assets/fonts/MADE\ Sunflower\ PERSONAL\ USE.otf);
+}
+
+@font-face {
+  font-family: montserrat;
+  src: url(./assets/fonts/Montserrat-SemiBold.ttf);
+}
+
+body {
+}
