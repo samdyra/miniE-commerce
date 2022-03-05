@@ -1,10 +1,10 @@
 import "./App.css";
-import HomeScreen from "./Home/HomeScreen";
+import NavBar from "./Navbar/Navbar";
 
 function App() {
   return (
     <div>
-      <HomeScreen></HomeScreen>
+      <NavBar></NavBar>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import shopImage from "../assets/images/Subtract.svg";
 
-const HomeScreen = () => {
+const NavBar = () => {
   return (
     <div className="nav-container">
       <div className="wrapper">
@@ -28,4 +28,4 @@ const HomeScreen = () => {
   );
 };
 
-export default HomeScreen;
+export default NavBar;
