@@ -1,12 +1,11 @@
+/* Default Settings */
+
 * {
   box-sizing: border-box;
   margin: 0;
 }
 
 body {
-  background-image: url("./assets/images/IMG_5818\ 1.png");
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 @font-face {
@@ -19,6 +18,15 @@ body {
   src: url(./assets/fonts/Montserrat-SemiBold.ttf);
 }
 
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  /* border: 3px solid yellow; */
+}
+
+/* End Default Settings */
+
+/* Navigation */
 nav {
   display: flex;
   align-items: center;
@@ -32,10 +40,23 @@ nav ul {
 }
 
 .nav-header-background {
-  /* background-image: url("./assets/images/IMG_5818\ 1.png"); */
+  background-image: url("./assets/images/IMG_5818\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+/* End Navigation */
+
+/* Header */
+
+header h1 {
+  font-family: sunflower;
+  font-size: 96px;
+  /* width: 700px; */
+  line-height: 92px;
+  color: #caae37;
+  /* border: 3px solid yellow; */
+  text-align: center;
 }
 
-.wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
-}
+/* End Header */
