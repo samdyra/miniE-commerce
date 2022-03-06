@@ -1,7 +1,8 @@
 import "./App.css";
-import DescScreen from "./Descripiton/DescScreen";
+import DescScreen from "./Description/DescScreen";
 import HeaderScreen from "./Header/Header";
 import NavBar from "./Navbar/Navbar";
+import SubsScreen from "./Subscribe/SubsScreen";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <HeaderScreen></HeaderScreen>
       </div>
       <DescScreen></DescScreen>
+      <SubsScreen></SubsScreen>
     </>
   );
 }
