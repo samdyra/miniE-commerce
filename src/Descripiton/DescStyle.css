@@ -1,4 +1,30 @@
 .desc-container {
   height: 100vh;
-  border: 3px solid yellow;
+  /* border: 3px solid yellow; */
+}
+
+.heading-desc {
+  /* border: 3px solid yellow; */
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  padding-top: 58px;
+}
+
+.product-image {
+  margin: auto 0;
+  width: 420px;
+  /* border: 3px solid yellow; */
+}
+
+.wrapper-desc {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+  /* border: 3px solid yellow; */
 }

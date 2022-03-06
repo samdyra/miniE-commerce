@@ -3,7 +3,7 @@ import "./Header.css";
 const HeaderScreen = () => {
   return (
     <div className="header-container">
-      <div className="wrapper">
+      <div className="wrapper-header">
         <header>
           <div>
             <h1>

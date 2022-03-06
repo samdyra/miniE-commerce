@@ -26,8 +26,8 @@ body {
 
 .wrapper {
   max-width: 1200px;
-  margin: 0 auto 0 auto;
-  /* border: 3px solid yellow; */
+  margin: 0 auto;
+  border: 3px solid yellow;
 }
 
 /* End Default Settings */
@@ -67,3 +67,7 @@ header h1 {
 }
 
 /* End Header */
+
+/* Description Page */
+
+/* End of Description Page */
