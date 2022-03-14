@@ -14,6 +14,18 @@
   /* border: 3px solid red; */
 }
 
+.nav-link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  font-family: montserrat;
+  color: #caae37;
+  list-style: none;
+  margin-right: 40px;
+  text-decoration: none;
+}
+
 .shop-btn {
   height: 33px;
 }

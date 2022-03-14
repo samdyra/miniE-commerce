@@ -1,7 +1,6 @@
 import React from "react";
 import DescScreen from "../components/Description/DescScreen";
 import HeaderScreen from "../components/Header/Header";
-import Products from "../components/mockProduct/Products";
 import NavBar from "../components/Navbar/Navbar";
 import SubsScreen from "../components/Subscribe/SubsScreen";
 import { commerce } from "../lib/commerce";
@@ -27,7 +26,6 @@ const MainScreen = () => {
       </div>
       <DescScreen></DescScreen>
       <SubsScreen></SubsScreen>
-      <Products></Products>
     </>
   );
 };

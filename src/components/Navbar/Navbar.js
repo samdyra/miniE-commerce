@@ -18,7 +18,9 @@ const NavBar = () => {
               <a>About Us</a>
             </li>
             <li>
-              <a>Contact Us</a>
+              <a href="/ShopScreen" className="nav-link">
+                Contact Us
+              </a>
             </li>
             <li>
               <a className="nav-btn-container">
