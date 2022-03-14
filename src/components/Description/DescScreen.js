@@ -1,5 +1,5 @@
 import "./DescStyle.css";
-import productImage from "../assets/images/product 1.svg";
+import productImage from "../../assets/images/product 1.svg";
 
 const DescScreen = () => {
   return (

@@ -1,5 +1,5 @@
-import shopImage from "../assets/images/Subtract.svg";
-import stellaImage from "../assets/images/Alternate logo 2 1.svg";
+import shopImage from "../../assets/images/Subtract.svg";
+import stellaImage from "../../assets/images/Alternate logo 2 1.svg";
 import "./Navbar.css";
 
 const NavBar = () => {
