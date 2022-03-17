@@ -3,6 +3,7 @@ import Products from "../components/mockProduct/Products";
 import NavBar from "../components/Navbar/Navbar";
 import { commerce } from "../lib/commerce";
 import { useState, useEffect } from "react";
+import Cart from "../components/Cart/Cart";
 
 const ShopScreen = () => {
   const [products, setProducts] = useState([]);
@@ -32,7 +33,12 @@ const ShopScreen = () => {
   return (
     <>
       <NavBar></NavBar>
-      <Products products={products} onAddToCart={handleAddToCart}></Products>
+      <Products
+        products={products}
+        onAddToCart={handleAddToCart}
+        totalItems={cart.total_items}
+      ></Products>
+      <Cart></Cart>
     </>
   );
 };
