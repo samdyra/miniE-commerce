@@ -38,7 +38,7 @@ const ShopScreen = () => {
         onAddToCart={handleAddToCart}
         totalItems={cart.total_items}
       ></Products>
-      <Cart></Cart>
+      {/* <Cart></Cart> */}
     </>
   );
 };
