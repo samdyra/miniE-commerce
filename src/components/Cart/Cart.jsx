@@ -1,8 +1,9 @@
 import React from "react";
 import { Container, Typography, Button, Grid } from "@material-ui/core";
 import useStyles from "./styles";
+import CartItem from "./CartItem/CartItem";
 
-const CartItem = ({ cart }) => {
+const Cart = ({ cart }) => {
   const classes = useStyles();
   const EmptyCart = () => {
     <Typography>You have no items</Typography>;
@@ -14,7 +15,7 @@ const CartItem = ({ cart }) => {
         <Grid container spacing={3}>
           {cart.line_items.map((item) => (
             <Grid item xs={12} sm={4} key={item.id}>
-              <div>{item.name}</div>
+              <CartItem item={item}></CartItem>
             </Grid>
           ))}
         </Grid>
@@ -52,7 +53,7 @@ const CartItem = ({ cart }) => {
   return (
     <Container>
       <div className="classes.toolbar"></div>
-      <Typography className="classes.title" variant="h3">
+      <Typography className="classes.title" gutterBottom variant="h3">
         Your Shopping Cart
       </Typography>
       {!cart.line_items.length ? (
@@ -64,4 +65,4 @@ const CartItem = ({ cart }) => {
   );
 };
 
-export default CartItem;
+export default Cart;

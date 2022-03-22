@@ -2,7 +2,11 @@ import React from "react";
 import { Grid } from "@material-ui/core";
 import Product from "./Product";
 
+import useStyles from "./productsStyles";
+
 const Products = ({ products, onAddToCart, totalItems }) => {
+  const classes = useStyles();
+
   return (
     <>
       <main>
