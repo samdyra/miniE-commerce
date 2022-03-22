@@ -18,7 +18,9 @@ const Products = ({ products, onAddToCart, totalItems }) => {
           ))}
         </Grid>
       </main>
-      <button>{totalItems}</button>
+      <a href="/CartScreen">
+        <button>{totalItems}</button>
+      </a>
     </>
   );
 };
