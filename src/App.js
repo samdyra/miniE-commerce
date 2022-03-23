@@ -1,6 +1,7 @@
 import "./App.css";
 import MainScreen from "./screens/MainScreen";
 import ShopScreen from "./screens/ShopScreen";
+import Checkout from "./components/CheckoutForm/Checkout/Checkout";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import CartScreen from "./screens/CartScreen";
 import { commerce } from "./lib/commerce";
@@ -64,6 +65,9 @@ const App = () => {
             handleRemoveFromCart={handleRemoveFromCart}
             handleEmptyCart={handleEmptyCart}
           ></CartScreen>
+        </Route>
+        <Route exact path="/CheckoutScreen">
+          <Checkout></Checkout>
         </Route>
       </Switch>
     </Router>
