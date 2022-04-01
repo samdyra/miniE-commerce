@@ -1,7 +1,8 @@
 .nav-container {
-  /* border: 3px solid green; */
+  /* border: 3px solid yellow; */
   /* padding-top: 30  px; */
   padding: 12px;
+  background-color: #f3f8f3;
 }
 .nav-items li {
   font-style: normal;
@@ -29,7 +30,7 @@
 
 .shop-btn {
   height: 32px;
-  height: 32px;
+  width: 32px;
 }
 
 .wrapper-navigation {

@@ -11,8 +11,8 @@ const MainScreen = () => {
       <div className="nav-header-background">
         <HeaderScreen></HeaderScreen>
       </div>
-      {/* <DescScreen></DescScreen>
-      <SubsScreen></SubsScreen> */}
+      <DescScreen></DescScreen>
+      <SubsScreen></SubsScreen>
     </>
   );
 };
