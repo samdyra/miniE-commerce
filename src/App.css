@@ -3,8 +3,8 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+  /* -ms-overflow-style: none;  */
+  /* scrollbar-width: none;  */
 }
 
 *::-webkit-scrollbar {
@@ -46,7 +46,7 @@ nav ul {
   background-image: url("./assets/images/IMG_5818\ 1.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 90.3vh;
 }
 /* End Navigation */
 

@@ -7,12 +7,12 @@ import SubsScreen from "../components/Subscribe/SubsScreen";
 const MainScreen = () => {
   return (
     <>
+      <NavBar></NavBar>
       <div className="nav-header-background">
-        <NavBar></NavBar>
         <HeaderScreen></HeaderScreen>
       </div>
-      <DescScreen></DescScreen>
-      <SubsScreen></SubsScreen>
+      {/* <DescScreen></DescScreen>
+      <SubsScreen></SubsScreen> */}
     </>
   );
 };

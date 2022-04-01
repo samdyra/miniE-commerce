@@ -1,24 +1,25 @@
 .nav-container {
   /* border: 3px solid green; */
-  padding-top: 30px;
+  /* padding-top: 30  px; */
+  padding: 12px;
 }
 .nav-items li {
   font-style: normal;
   font-weight: 600;
-  font-size: 12px;
-  line-height: 15px;
   font-family: montserrat;
   color: #caae37;
   list-style: none;
   margin-right: 40px;
   /* border: 3px solid red; */
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .nav-link {
   font-style: normal;
   font-weight: 600;
-  font-size: 12px;
-  line-height: 15px;
+  font-size: 16px;
+  line-height: 20px;
   font-family: montserrat;
   color: #caae37;
   list-style: none;
@@ -27,7 +28,8 @@
 }
 
 .shop-btn {
-  height: 33px;
+  height: 32px;
+  height: 32px;
 }
 
 .wrapper-navigation {
@@ -37,6 +39,7 @@
 }
 
 .logo {
-  width: 281px;
+  width: 333px;
+  height: 69px;
   /* border: 3px solid red; */
 }
