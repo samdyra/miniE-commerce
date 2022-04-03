@@ -173,8 +173,7 @@ const AddressForm = ({ checkoutToken, next }) => {
             <Button component={Link} to="/CartScreen" variant="outlined">
               Back to Cart
             </Button>
-            <Button variant="contained" color="primary">
-              {" "}
+            <Button type="submit" variant="contained" color="primary">
               Next
             </Button>
           </div>
