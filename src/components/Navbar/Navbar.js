@@ -12,18 +12,20 @@ const NavBar = () => {
           </div>
           <ul className="nav-items">
             <li>
-              <a>Home</a>
+              <a href="/" className="nav-link">
+                Home
+              </a>
             </li>
             <li>
               <a>About Us</a>
             </li>
             <li>
               <a href="/ShopScreen" className="nav-link">
-                Contact Us
+                Shop
               </a>
             </li>
             <li>
-              <a className="nav-btn-container">
+              <a className="nav-btn-container" href="/ShopScreen">
                 <img src={shopImage} className="shop-btn"></img>
               </a>
             </li>
